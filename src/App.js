@@ -153,7 +153,7 @@ function App() {
         <div className="info-graphics">
           <div className="info-graphic">
             <p id="save-over-text">Save over</p>
-            <img src="/timer1.png" alt="6 minutes info graphics" />
+            <img src="timer1.png" alt="6 minutes info graphics" />
             <p id="on-each">On each compounding with extempo app</p>
           </div>
         </div>
