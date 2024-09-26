@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b36bf0b2e12ac13688cf1d1f8d737aa0",
+    "revision": "e76210e9523530dbbfd1eb33f0a3a0a6",
     "url": "/extempo-plus/index.html"
   },
   {
-    "revision": "538793c05920884e82fa",
+    "revision": "4f451c237eb702b7121b",
     "url": "/extempo-plus/static/css/main.35919c3a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/extempo-plus/static/js/3.a29efab2.chunk.js"
   },
   {
-    "revision": "538793c05920884e82fa",
-    "url": "/extempo-plus/static/js/main.a2801aef.chunk.js"
+    "revision": "4f451c237eb702b7121b",
+    "url": "/extempo-plus/static/js/main.72059d75.chunk.js"
   },
   {
     "revision": "4d94c6372f6fc67df1b7",

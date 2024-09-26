@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/extempo-plus/precache-manifest.5de2e67195bdbabdb30a1369d0d70be3.js"
+  "/extempo-plus/precache-manifest.4cf0db313e0a11b3d45b3b975e093b1a.js"
 );
 
 self.addEventListener('message', (event) => {
