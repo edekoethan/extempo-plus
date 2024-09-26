@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/extempo-plus/static/css/main.35919c3a.chunk.css",
+    "main.js": "/extempo-plus/static/js/main.cd076b19.chunk.js",
+    "main.js.map": "/extempo-plus/static/js/main.cd076b19.chunk.js.map",
+    "runtime~main.js": "/extempo-plus/static/js/runtime~main.21bf8a8f.js",
+    "runtime~main.js.map": "/extempo-plus/static/js/runtime~main.21bf8a8f.js.map",
+    "static/js/2.cd2a726b.chunk.js": "/extempo-plus/static/js/2.cd2a726b.chunk.js",
+    "static/js/2.cd2a726b.chunk.js.map": "/extempo-plus/static/js/2.cd2a726b.chunk.js.map",
+    "static/js/3.a29efab2.chunk.js": "/extempo-plus/static/js/3.a29efab2.chunk.js",
+    "static/js/3.a29efab2.chunk.js.map": "/extempo-plus/static/js/3.a29efab2.chunk.js.map",
+    "index.html": "/extempo-plus/index.html",
+    "precache-manifest.70ffd1d8b30e24868ea9beed8649f569.js": "/extempo-plus/precache-manifest.70ffd1d8b30e24868ea9beed8649f569.js",
+    "service-worker.js": "/extempo-plus/service-worker.js",
+    "static/css/main.35919c3a.chunk.css.map": "/extempo-plus/static/css/main.35919c3a.chunk.css.map"
+  }
+}
