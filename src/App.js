@@ -144,7 +144,7 @@ function App() {
           <h2>Calculate Quantities</h2>
           <p>Calculate the quantities of drugs to be administered to patients.</p>
           <p>Quantities are calculated based on the patient's weight, prescribed dose, and other factors.</p>
-          <p>Quantities are easy to calculate and .</p>
+          <p>Quantities are easy to calculate.</p>
         </div>
       </div>
 
