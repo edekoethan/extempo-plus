@@ -11,10 +11,10 @@ function App() {
   const [showModal, setShowModal] = useState(false); // State to manage modal visibility
 
   const images = [
-    '/pharmacists1.png',
-    '/pharmacists2.png',
-    '/pharmacists3.png',
-    '/pharmacists4.png',
+    '/public/pharmacists1.png',
+    '/public/pharmacists2.png',
+    '/public/pharmacists3.png',
+    '/public/pharmacists4.png',
   ];
 
   useEffect(() => {
@@ -99,8 +99,7 @@ function App() {
     // JavaScript for flipping flashcards every 5 seconds
     document.addEventListener('DOMContentLoaded', function () {
       const flashcards = document.querySelectorAll('.flashcard-inner');
-      let index = 0;
-
+      
       flashcards.forEach((flashcard) => {
           flashcard.addEventListener('click', () => {
           flashcard.style.transform = flashcard.style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
@@ -112,19 +111,19 @@ function App() {
     <div className="app">
       <ul id="menu">
         <div className="menu-group left">
-          <li><a href="https://studixshare.com/login" target="_blank">Log-In</a></li>
-          <li><a href="#">Blog-Post</a></li>
-          <li><a href="https://studixshare.com/login"target="_blank">Try Flashcards</a></li>
+          <li><a href="https://studixshare.com/login" target="_blank" rel="noopener noreferrer">Log-In</a></li>
+          <li><a href="https://example.com">Blog-Post</a></li>
+          <li><a href="https://studixshare.com/login"target="_blank" rel="noopener noreferrer">Try Flashcards</a></li>
         </div>
         <div className="menu-group center">
-          <li><a href="#">Generate Instructions</a></li>
-          <li><a href="#" onClick={handleShowModal}>Create Label</a></li>
-          <li><a href="#" onClick={() => setShowForm(true)}>Calculate Quantities</a></li>
+          <li><a href="https://example.com">Generate Instructions</a></li>
+          <li><a href="https://example.com" onClick={handleShowModal}>Create Label</a></li>
+          <li><a href="https://example.com" onClick={() => setShowForm(true)}>Calculate Quantities</a></li>
         </div>
         <div className="menu-group right">
-          <li><a href="https://studixshare.com/contact" target="_blank">Contact Us</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="https://studixshare.com/support" target="_blank">Support</a></li>
+          <li><a href="https://studixshare.com/contact" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+          <li><a href="https://example.com">FAQ</a></li>
+          <li><a href="https://studixshare.com/support" target="_blank" rel="noopener noreferrer">Support</a></li>
         </div>
       </ul>
 
@@ -190,7 +189,7 @@ function App() {
         </div>
       </section>
     
-      <div class="try-flashcards">Click <a href="https://studixshare.com/login" target="_blank">here</a> to sign-up for flashcards</div>
+      <div class="try-flashcards">Click <a href="https://studixshare.com/login" target="_blank" rel="noopener noreferrer">here</a> to sign-up for flashcards</div>
 
       {/* Modal for displaying results */}
       {showResults && (
