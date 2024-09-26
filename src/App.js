@@ -11,11 +11,12 @@ function App() {
   const [showModal, setShowModal] = useState(false); // State to manage modal visibility
 
   const images = [
-    '/public/pharmacists1.png',
-    '/public/pharmacists2.png',
-    '/public/pharmacists3.png',
-    '/public/pharmacists4.png',
+    `${process.env.PUBLIC_URL}/pharmacists1.png`,
+    `${process.env.PUBLIC_URL}/pharmacists2.png`,
+    `${process.env.PUBLIC_URL}/pharmacists3.png`,
+    `${process.env.PUBLIC_URL}/pharmacists4.png`,
   ];
+  
 
   useEffect(() => {
     const interval = setInterval(() => {
